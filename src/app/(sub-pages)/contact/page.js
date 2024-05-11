@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from '../../../../public/background/contact.png';
+import bg from '../../../../public/background/contact-background.png';
 import Form from "@/components/contact/Form";
 import RenderModel from "@/components/RenderModel";
 import dynamic from "next/dynamic";
