@@ -113,7 +113,7 @@ const AboutDetails = () => {
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full"}>
-                    <img className="w-full h-auto" src="https://skillicons.dev/icons?i=bash,bootstrap,codepen,cs,css,docker,figma,firebase,git,github,html,js,jquery,laravel,mongodb,mysql,nextjs,nodejs,npm,php,postgres,react,sass,tailwind,threejs,unity,vite,vscode,vue,wordpress" alt="0Memo" loading="lazy" />
+                    <img className="w-full h-auto" src="https://skillicons.dev/icons?i=bash,bootstrap,codepen,cs,css,docker,figma,firebase,git,github,html,js,jquery,laravel,mongodb,mysql,nestjs,nextjs,nodejs,npm,php,react,sass,tailwind,threejs,unity,vite,vscode,vue,wordpress" alt="0Memo" loading="lazy" />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
