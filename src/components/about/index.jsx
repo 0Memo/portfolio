@@ -18,12 +18,12 @@ const AboutDetails = () => {
                 </ItemLayout>
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-custom"}>
                     <p className="font-semibold w-full text-left text-lg sm:text-2xl">
-                        Formation Développeur Intégrateur Web <span className="font-semibold text-base text-foreground">Ifocop Paris XI — juin 2020 - fév. 2021</span>
+                        Formation Concepteur Développeur d'Applications <span className="font-semibold text-base text-foreground">Alt — mars 2024 - août 2024</span>
                     </p>
                 </ItemLayout>
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-custom"}>
                     <p className="font-semibold w-full text-left text-lg sm:text-2xl">
-                        Formation Master Commerce International <span className="font-semibold text-base text-foreground">Université Paris X — oct. 2015 - juin 2016</span>
+                        Formation Développeur Intégrateur Web <span className="font-semibold text-base text-foreground">Ifocop Paris XI — juin 2020 - fév. 2021</span>
                     </p>
                 </ItemLayout>
 
