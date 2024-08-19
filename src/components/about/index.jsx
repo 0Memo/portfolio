@@ -62,7 +62,7 @@ const AboutDetails = () => {
                                 `}</style>
                             </div>
                             <div className="text-lg font-medium dark:text-white">
-                                C# / UNITY
+                                C#/UNITY/NestJS/Typescript
                                 <progress value={0.6} style={{ width: '100%', height: '1rem' }} />
                                 <style jsx>{`
                                     progress[value]::-webkit-progress-value {
