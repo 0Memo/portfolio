@@ -21,7 +21,7 @@ export default function Contact() {
                     
                     <label htmlFor="name">
                         <p className="text-center font-light !my-10 text-sm xs:text-base !mx-8 xs:mx-0">
-                            Venez formulez vos requêtes auprès de l'usine du cosmos. Que ce soit pour faire appel aux forces de la collaboration, lever des mystères ou bien entamer une nouvelle aventure, vos messages sont des biens précieux en ce royaume. Faites usage de ce formulaire, et guettez le souffle de la magie en réponse à votre missive.
+                            Venez formuler vos requêtes auprès de l'usine du cosmos. Que ce soit pour faire appel aux forces de la collaboration, lever des mystères ou bien entamer une nouvelle aventure, vos messages sont des biens précieux en ce royaume. Faites usage de ce formulaire, et guettez le souffle de la magie en réponse à votre missive.
                         </p>
                     </label>
                 </div>
