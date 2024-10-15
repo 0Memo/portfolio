@@ -21,7 +21,7 @@ export const projectsData = [
     id: 1,
     name: "ParLink",
     description: "Projet collectif",
-    tools: "ReactJS, Tailwind CSS, Flowbite React, Typescript, NestJS, Prisma, Docker",
+    tools: "React, Tailwind CSS, Flowbite React, Typescript, NestJS, Prisma, Docker",
     demoLink: "https://parlink.vercel.app/",
   },
   {
