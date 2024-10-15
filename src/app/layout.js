@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href="/colombia.ico  type="image/x-icon" />
+        <link rel="icon" href="/colombia.ico"  type="image/x-icon" />
       </head>
       <body className={clsx(inter.variable, 'bg-background text-foreground font-inter')}>
         {children}
