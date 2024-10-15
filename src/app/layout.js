@@ -17,6 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={clsx(inter.variable, 'bg-background text-foreground font-inter')}>
         {children}
         <FireFliesBackground />
