@@ -127,7 +127,7 @@ export default function Form() {
                 <motion.input
                     variants={item}
                     className='!mt-20 px-10 py-4 rounder-md shadow-lg bg-background border border-custom border-solid rounded-md hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-2 focus:ring-custom/50 cursor-pointer capitalize'
-                    value="Invoquez votre message!"
+                    value="Envoyez votre missive!"
                     type="submit"
                 />
             </motion.form>

@@ -18,12 +18,12 @@ const AboutDetails = () => {
                 </ItemLayout>
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-custom"}>
                     <p className="font-semibold w-full text-left text-lg sm:text-2xl">
-                        Formation Développeur Intégrateur Web <span className="font-semibold text-base text-foreground">Ifocop Paris XI — juin 2020 - fév. 2021</span>
+                        Formation Concepteur Développeur d'Applications <span className="font-semibold text-base text-foreground">Alt — mars 2024 - août 2024</span>
                     </p>
                 </ItemLayout>
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-custom"}>
                     <p className="font-semibold w-full text-left text-lg sm:text-2xl">
-                        Formation Master Commerce International <span className="font-semibold text-base text-foreground">Université Paris X — oct. 2015 - juin 2016</span>
+                        Formation Développeur Intégrateur Web <span className="font-semibold text-base text-foreground">Ifocop Paris XI — juin 2020 - fév. 2021</span>
                     </p>
                 </ItemLayout>
 
@@ -62,7 +62,7 @@ const AboutDetails = () => {
                                 `}</style>
                             </div>
                             <div className="text-lg font-medium dark:text-white">
-                                C# / UNITY
+                                C#/UNITY/NestJS/Typescript
                                 <progress value={0.6} style={{ width: '100%', height: '1rem' }} />
                                 <style jsx>{`
                                     progress[value]::-webkit-progress-value {
@@ -113,7 +113,7 @@ const AboutDetails = () => {
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full"}>
-                    <img className="w-full h-auto" src="https://skillicons.dev/icons?i=bash,bootstrap,codepen,cs,css,docker,figma,firebase,git,github,html,js,jquery,laravel,mongodb,mysql,nextjs,nodejs,npm,php,postgres,react,sass,tailwind,threejs,unity,vite,vscode,vue,wordpress" alt="0Memo" loading="lazy" />
+                    <img className="w-full h-auto" src="https://skillicons.dev/icons?i=bash,bootstrap,codepen,cs,css,docker,figma,firebase,git,github,html,js,jquery,laravel,mongodb,mysql,nestjs,nextjs,nodejs,npm,php,react,sass,tailwind,threejs,unity,vite,vscode,vue,wordpress" alt="0Memo" loading="lazy" />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
