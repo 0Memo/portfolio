@@ -4,8 +4,6 @@ import RenderModel from "@/components/RenderModel";
 // import Wizard from "@/components/models/Wizard";
 import Navigation from "@/components/navigation";
 import dynamic from "next/dynamic";
-import './page.css';
-import './page_custom.js';
 
 const Wizard = dynamic(() => import('@/components/models/Wizard2'), {ssr: false});
 
