@@ -4,7 +4,7 @@ import RenderModel from "@/components/RenderModel";
 // import Wizard from "@/components/models/Wizard";
 import Navigation from "@/components/navigation";
 import dynamic from "next/dynamic";
-
+import './page.css';
 const Wizard = dynamic(() => import('@/components/models/Wizard2'), {ssr: false});
 
 export default function Home() {
@@ -17,6 +17,171 @@ export default function Home() {
           <Wizard />
         </RenderModel>
       </div>
+      <div id="snow"></div>
+      <ul class="bgg">
+        <li class="sphere"></li>
+      </ul>
+      <ul class="tree">
+        <li class="top-star"> </li>
+        <li class="top">
+          <ul class="tree-pts">
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+          </ul>
+        </li>
+        <li class="middle first">
+          <ul class="tree-pts">
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+          </ul>
+        </li>
+        <li class="middle second">
+          <ul class="tree-pts">
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+          </ul>
+        </li>
+        <li class="middle third">
+          <ul class="tree-pts">
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+          </ul>
+        </li>
+        <li class="bottom outer">
+          <ul class="tree-pts">
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts left"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+            <li class="pts right"></li>
+          </ul>
+        </li>
+        <li class="stem">
+          <ul class="tree-stem">
+            <li class="stem"></li>
+            <li class="gift g1"></li>
+            <li class="gift g2"></li>
+            <li class="gift g3"></li>
+            <li class="gift g4"></li>
+            <li class="gift g5"></li>
+            <li class="gift g6"></li>
+            <li class="gift g7"></li>
+            <li class="gift g8"></li>
+            <li class="gift g9"></li>
+            <li class="shadow"></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="toys">
+        <li class="star"></li>
+        <li class="ball b1"></li>
+        <li class="ball b2"></li>
+        <li class="ball b3"></li>
+        <li class="ball b4"></li>
+        <li class="ball b5"></li>
+        <li class="ball b6"></li>
+        <li class="ball b7"></li>
+        <li class="ball b8"></li>
+        <li class="ball b9"></li>
+        <li class="ball b10"></li>
+        <li class="ball b11"></li>
+        <li class="ball b12"></li>
+        <li class="ball b13"></li>
+        <li class="ball b14"></li>
+        <li class="ball b15"></li>
+        <li class="ball b16"></li>
+        <li class="ball b17"></li>
+        <li class="ball b18"></li>
+        <li class="ball b19"></li>
+        <li class="ball b20"></li>
+        <li class="light l1"></li>
+        <li class="light l2"></li>
+        <li class="light l3"></li>
+        <li class="light l4"></li>
+        <li class="light l5"></li>
+        <li class="light l6"></li>
+        <li class="light l7"></li>
+        <li class="light l8"></li>
+        <li class="light l9"></li>
+        <li class="light l10"></li>
+        <li class="light l11"></li>
+        <li class="light l12"></li>
+        <li class="light l13"></li>
+        <li class="light l14"></li>
+        <li class="light l15"></li>
+        <li class="light l16"></li>
+        <li class="light l17"></li>
+        <li class="light l18"></li>
+        <li class="light l19"></li>
+        <li class="light l20"></li>
+        <li class="light l21"></li>
+        <li class="light l22"></li>
+        <li class="light l23"></li>
+        <li class="light l24"></li>
+        <li class="light l25"></li>
+      </ul>
       <p className="fixed bottom-0 text-custom mb-2 font-semibold text-md">&copy; Guillermo 2024 | Tous droits réservés</p>
     </main>
   );
