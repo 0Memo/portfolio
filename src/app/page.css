@@ -78,7 +78,7 @@
     position: fixed;
     display: grid;
     align-content: center;
-    z-index: 1;
+    z-index: -1;
     height: 100vh;
     left: 50%;
     margin-left: -315px;
@@ -94,7 +94,7 @@ ul {
 }
 
 .tree {
-    z-index: 2;
+    z-index: -1;
     position: fixed;
     left: 50%;
     margin-left: -160px;
@@ -848,7 +848,7 @@ ul {
     margin: 5px;
     background-color: #ffc0cb;
     border: 1px dotted #42161e;
-    z-index: 20;
+    z-index: 0;
     box-shadow: 1px -1px 2px #f5b0bc, 2px -2px 2px #e89daa, 3px -3px 2px #da8a98, 4px -4px 2px #ce7a89, 5px -5px 2px #bb6676, 6px -6px 2px #af5969, 7px -7px 2px #a04a5a, 8px -8px 2px #943e4e, 9px -9px 2px #803442, 10px -10px 2px #6b2834, 11px -11px 2px #541e28, 12px -12px 2px #42161e;
 }
 
@@ -920,7 +920,7 @@ ul {
     grid-template-rows: repeat(12, 20px);
     left: calc(50% - 100px);
     top: calc(50% - 135px);
-    z-index: 2;
+    z-index: 0;
 }
 
 .toys .star {
@@ -960,7 +960,7 @@ ul {
     height: 20px;
     background-color: #f00;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 0;
     position: absolute;
 }
 
