@@ -149,17 +149,15 @@ export const BtnList = [
     newTab: true,
   },
   {
-    label: "Portfolio",
-    link: "https://guillermo-web.fr/portfolio/index.php",
+    label: "CV 2D",
+    link: "https://guillermo-web.fr/cv2D/",
     icon: "portfolio",
     newTab: true,
   },
   {
-    label: "CV",
+    label: "CV PDF",
     link: "/CV_Guillaume_Mehats.pdf",
     icon: "resume",
     newTab: true,
   },
 ];
-
-

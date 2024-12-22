@@ -1,0 +1,40 @@
+{
+    "menu": {
+        "homepage": "Homepage",
+        "me": "Me",
+        "projects": "Projects",
+        "contact": "Contact",
+        "2D resume": "2D resume",
+        "PDF resume": "PDF resume"
+    },
+    "about": {
+        "title": "Come and see the man that stands under the hat..",
+        "presentation": "Enchantment Worker",
+        "body": "A good day in the world of development does not rhyme with boredom or ease. There are so many languages, libraries, and other valuable tools to endlessly discover and use... This space you are discovering is an opportunity for me to explore the world of Next.js after having previously practiced React.js. I hope you like it as much as I do. It is important for me to reinvent myself in terms of knowledge and accomplishments and to always push my own limits to provide a better version of myself and my work.",
+        "training1": "App Designer & Developer Training",
+        "place1": "Alt — mar. 2024 - aug. 2024",
+        "training2": "Web Developer Training",
+        "place2": "Ifocop Paris XI — jun. 2020 - feb. 2021",
+        "language": "en",
+        "languages": "Foreign languages",
+        "urbex": "Urbex",
+        "garage sale": "Garage sale",
+        "metal detection": "Metal detection",
+        "travel": "Travelling",
+        "epoxy": "Epoxy resin creation"
+    },
+    "contact": {
+        "title": "Summon The Wizard!",
+        "text": "Come and present your requests to the factory of the cosmos. Wether it's to call upon the forces of collaboration, unravel mysteries or embark on a new adventure, your messages are precious treasurers for this realm. Use of this form, and await the breath of magic in response to your missive.",
+        "name": "name...",
+        "email": "email...",
+        "message": "message...",
+        "button": "Send Your Missive!"
+    },
+    "credit": {
+        "title": "Credits"
+    },
+    "footer": {
+        "title": "All rights reserved"
+    }
+}

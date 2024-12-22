@@ -3,6 +3,7 @@ import "./globals.css";
 import clsx from 'clsx';
 import FireFliesBackground from "@/components/FireFliesBackground";
 import Sound from "@/components/Sound";
+import { NextIntlClientProvider } from 'next-intl';
 
 const inter = Inter({
   subsets: ["latin"],

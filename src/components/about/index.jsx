@@ -2,33 +2,36 @@
 import React from 'react';
 import ItemLayout from './ItemLayout';
 import { Progress } from "flowbite-react";
+import { useTranslations } from 'next-intl';
 
 const AboutDetails = () => {
+    const t = useTranslations('about');
+
     return (
         <section className="py-20 w-full">
             <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full">
 
                 <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
                     <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-                        Travailleur de l'Enchantement
+                        {t('presentation')}
                     </h2>
                     <p className="font-light text-xs sm:text-sm md:text-base">
-                        Une bonne journée dans l'univers du développement rime pas avec ennui ni avec facilité. Il y a tant de langages, de libraires et autres précieux outils à découvrir et à utiliser sans fin... Cet espace que vous découvrez est l'occasion pour moi de découvrir le monde de Next.js après avoir pratiquer React.js au preálable, j'espère que cela vous plaire autant qu'à moi. Il est important pour moi de savoir se réinventer en termes de connaissances et de réalisations, et repousser toujours plus loin ses propres limites pour donner une meilleur version de soi et de son travail.
+                        {t('body')}
                     </p>
                 </ItemLayout>
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-custom"}>
                     <p className="font-semibold w-full text-left text-lg sm:text-2xl">
-                        Formation Concepteur Développeur d'Applications <span className="font-semibold text-base text-foreground">Alt — mars 2024 - août 2024</span>
+                        {t('training1')} <span className="font-semibold text-base text-foreground">{t('place1')}</span>
                     </p>
                 </ItemLayout>
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-custom"}>
                     <p className="font-semibold w-full text-left text-lg sm:text-2xl">
-                        Formation Développeur Intégrateur Web <span className="font-semibold text-base text-foreground">Ifocop Paris XI — juin 2020 - fév. 2021</span>
+                        {t('training2')} <span className="font-semibold text-base text-foreground">{t('place2')}1</span>
                     </p>
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}>
-                    <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0Memo&layout=compact&locale=fr&theme=transparent&hide_border=true&title_color=A537FD&text_color=FFFFFF&icon_color=A537FD&text_bold=false" alt="0Memo" loading="lazy" />
+                    <img className="w-full h-auto" src={`https://github-readme-stats.vercel.app/api/top-langs/?username=0Memo&layout=compact&locale=${t('language')}&theme=transparent&hide_border=true&title_color=A537FD&text_color=FFFFFF&icon_color=A537FD&text_bold=false`} alt="0Memo" loading="lazy" />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
@@ -120,24 +123,24 @@ const AboutDetails = () => {
                     <div className='flex flex-col sm:flex-row justify-around gap-0 sm:gap-32'>
                         <div className='flex flex-col mt-6 xs:mt-0 my-0 sm:my-5'>
                             <div className="text-md xs:text-2xl font-medium dark:text-white">
-                                Langues étrangères
+                                {t('languages')}
                             </div>
                             <div className="text-md xs:text-2xl font-medium dark:text-white">
-                                Urbex
+                                {t('urbex')}
                             </div>
                             <div className="text-md xs:text-2xl font-medium dark:text-white">
-                                Vide-greniers
+                                {t('garage sale')}
                             </div>
                         </div>
                         <div className='flex flex-col mb-6 xs:mb-0 my-0 sm:my-5'>
                             <div className="text-md xs:text-2xl font-medium dark:text-white">
-                                Détection de métaux
+                                {t('metal detection')}
                             </div>
                             <div className="text-md xs:text-2xl font-medium dark:text-white">
-                                Voyages
+                                {t('travel')}
                             </div>
                             <div className="text-md xs:text-2xl font-medium dark:text-white">
-                                Construction résine époxy
+                                {t('epoxy')}
                             </div>
                         </div>
                     </div>

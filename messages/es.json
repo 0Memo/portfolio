@@ -1,0 +1,40 @@
+{
+    "menu": {
+        "homepage": "Página principal",
+        "me": "Sobre mí",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "2D resume": "Hoja de vida 2D",
+        "PDF resume": "Hoja de vida PDF"
+    },
+    "about": {
+        "title": "Vengan a conocer al hombre que lleva el sombrero..",
+        "presentation": "Obrero del Encanto",
+        "body": "Un buen día en el universo del desarrollo no rima con aburrimiento ni con facilidad. Hay tantos lenguajes, bibliotecas y otras herramientas valiosas por descubrir y utilizar sin fin... Este espacio que estás descubriendo es una oportunidad para mí de explorar el mundo de Next.js después de haber practicado React.js previamente. Espero que te guste tanto como a mí. Es importante para mí reinventarme en términos de conocimientos y logros, y siempre superar mis propios límites para ofrecer una mejor versión de mí mismo y de mi trabajo.",
+        "training1": "Formación Diseñador Desarrollador de Aplicaciones",
+        "place1": "Alt — mar. 2024 - ago. 2024",
+        "training2": "Formación Desarrollador Integrador Web",
+        "place2": "Ifocop Paris XI — jun. 2020 - feb. 2021",
+        "language": "es",
+        "languages": "Lenguas extranjeras",
+        "urbex": "Urbex",
+        "garage sale": "Venta de garaje",
+        "metal detection": "Detección de metales",
+        "travel": "Viajes",
+        "epoxy": "Creación resina epóxica"
+    },
+    "contact": {
+        "title": "¡Invoquen Al Mago!",
+        "text": "Vengan a presentar sus solicitudes a la fábrica del cosmos. Ya sea para llamar a las fuerzas de la colaboración, desentrañar misterios o embarcarse en una nueva aventura, sus mensajes son tesoros valiosos en este reino. Usen este formulario y esperen el soplo de magia en respuesta a su mensaje.",
+        "name": "nombre...",
+        "email": "correo...",
+        "message": "mensaje...",
+        "button": "¡Envíe Su Mensaje!"
+    },
+    "credit": {
+        "title": "Créditos"
+    },
+    "footer": {
+        "title": "Todos los derechos reservados"
+    }
+}

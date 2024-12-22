@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 import { Toaster, toast } from 'sonner';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 const container = {
     hidden: { opacity: 0 },
@@ -22,6 +23,8 @@ const item = {
 }
 
 export default function Form() {
+    const t = useTranslations('contact');
+
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
     const sendEmail = (params) => {
@@ -82,7 +85,7 @@ export default function Form() {
                     type="text"
                     name="name"
                     id="name"
-                    placeholder="nom..."
+                    placeholder={t('name')}
                     {...register("name", {required: '*Le nom est requis', minLength: {
                         value: 3,
                         message: 'Le nom doit faire au moins 3 caractères',
@@ -100,7 +103,7 @@ export default function Form() {
                     variants={item}
                     type="email"
                     name="email"
-                    placeholder="e-mail..."
+                    placeholder={t('email')}
                     {...register("email", {required: '*L\'e-mail est requis'})}
                     className='w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-custom/50 custom-bg'
                 />
@@ -109,7 +112,7 @@ export default function Form() {
                 }
             
                 <motion.textarea
-                    placeholder="message..."
+                    placeholder={t('message')}
                     name="message"
                     {...register("message", {required: '*Le message est requis', maxlength: {
                         value: 500,
@@ -127,7 +130,7 @@ export default function Form() {
                 <motion.input
                     variants={item}
                     className='!mt-20 px-10 py-4 rounder-md shadow-lg bg-background border border-custom border-solid rounded-md hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-2 focus:ring-custom/50 cursor-pointer capitalize'
-                    value="Envoyez votre missive!"
+                    value={t('button')}
                     type="submit"
                 />
             </motion.form>
