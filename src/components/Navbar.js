@@ -1,20 +1,24 @@
+"use client";
 import * as dotenv from 'dotenv';
 import Link from 'next/link';
 import React from 'react';
+import { usePathname } from 'next/navigation';
 
 dotenv.config();
 
-const vercelURL = process.env.VERCEL_APP;
-const localhost = 'http://localhost:3000';
-
 const Navbar = () => {
+    const pathname = usePathname(); // Get the current path
+
+    // Extract the current language prefix and remove it from the path
+    const pathWithoutLang = pathname.replace(/^\/(fr|es|en)/, '');
+
     return (
         <nav className='flex p-2 bg-purple-800 gap-2 z-20'>
-            <Link href={`${vercelURL}/fr`}>FR</Link>
+            <Link href={`/fr${pathWithoutLang}`}>FR</Link>
             <div>|</div>
-            <Link href={`${vercelURL}/es`}>ES</Link>
+            <Link href={`/es${pathWithoutLang}`}>ES</Link>
             <div>|</div>
-            <Link href={`${vercelURL}/en`}>EN</Link>
+            <Link href={`/en${pathWithoutLang}`}>EN</Link>
         </nav>
     );
 }
