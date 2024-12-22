@@ -1,0 +1,40 @@
+{
+    "menu": {
+        "homepage": "Pagina principale",
+        "me": "Chi sono",
+        "projects": "Progetti",
+        "contact": "Contatti",
+        "2D resume": "Curriculum 2D",
+        "PDF resume": "Curriculum PDF"
+    },
+    "about": {
+        "title": "Vieni a conoscere l'uomo che porta il cappello...",
+        "presentation": "Operaio dell'Incanto",
+        "body": "Una buona giornata nell'universo dello sviluppo non rima con noia né con semplicità. Ci sono così tanti linguaggi, librerie e altri strumenti preziosi da scoprire e utilizzare senza fine... Questo spazio che stai esplorando è un'opportunità per me di esplorare il mondo di Next.js dopo aver praticato React.js in precedenza. Spero che ti piaccia tanto quanto piace a me. È importante per me reinventarmi in termini di conoscenze e risultati, e superare sempre i miei limiti per offrire una versione migliore di me stesso e del mio lavoro.",
+        "training1": "Formazione Designer e Sviluppatore di Applicazioni",
+        "place1": "Alt — mar. 2024 - ago. 2024",
+        "training2": "Formazione Sviluppatore e Integratore Web",
+        "place2": "Ifocop Paris XI — giu. 2020 - feb. 2021",
+        "language": "it",
+        "languages": "Lingue straniere",
+        "urbex": "Esplorazione urbana",
+        "garage sale": "Mercatino dell'usato",
+        "metal detection": "Rilevazione metalli",
+        "travel": "Viaggi",
+        "epoxy": "Creazione in resina epossidica"
+    },
+    "contact": {
+        "title": "Evoca il Mago!",
+        "text": "Vieni a presentare le tue richieste alla fabbrica del cosmo. Che sia per chiamare le forze della collaborazione, svelare misteri o intraprendere una nuova avventura, i tuoi messaggi sono tesori preziosi in questo regno. Usa questo modulo e attendi il soffio della magia in risposta al tuo messaggio.",
+        "name": "nome...",
+        "email": "email...",
+        "message": "messaggio...",
+        "button": "Invia Il Tuo Messaggio!"
+    },
+    "credit": {
+        "title": "Crediti"
+    },
+    "footer": {
+        "title": "Tutti i diritti riservati"
+    }
+}

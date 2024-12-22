@@ -1,0 +1,40 @@
+{
+    "menu": {
+        "homepage": "Página inicial",
+        "me": "Sobre mim",
+        "projects": "Projetos",
+        "contact": "Contato",
+        "2D resume": "Currículo 2D",
+        "PDF resume": "Currículo PDF"
+    },
+    "about": {
+        "title": "Venha conhecer o homem que usa o chapéu...",
+        "presentation": "Operário do Encanto",
+        "body": "Um bom dia no universo do desenvolvimento não rima com tédio nem com facilidade. Há tantas linguagens, bibliotecas e outras ferramentas valiosas para descobrir e utilizar sem fim... Este espaço que você está explorando é uma oportunidade para mim de explorar o mundo do Next.js depois de ter praticado React.js anteriormente. Espero que você goste tanto quanto eu. É importante para mim me reinventar em termos de conhecimento e realizações, e sempre superar meus próprios limites para oferecer uma versão melhor de mim mesmo e do meu trabalho.",
+        "training1": "Formação em Design e Desenvolvimento de Aplicações",
+        "place1": "Alt — mar. 2024 - ago. 2024",
+        "training2": "Formação em Desenvolvimento e Integração Web",
+        "place2": "Ifocop Paris XI — jun. 2020 - fev. 2021",
+        "language": "pt",
+        "languages": "Idiomas estrangeiros",
+        "urbex": "Exploração urbana",
+        "garage sale": "Venda de garagem",
+        "metal detection": "Detecção de metais",
+        "travel": "Viagens",
+        "epoxy": "Criação em resina epóxi"
+    },
+    "contact": {
+        "title": "Invoque o Mago!",
+        "text": "Venha apresentar seus pedidos à fábrica do cosmos. Seja para chamar as forças da colaboração, desvendar mistérios ou embarcar em uma nova aventura, suas mensagens são tesouros valiosos neste reino. Use este formulário e aguarde o sopro da magia em resposta à sua mensagem.",
+        "name": "nome...",
+        "email": "email...",
+        "message": "mensagem...",
+        "button": "Envie Sua Mensagem!"
+    },
+    "credit": {
+        "title": "Créditos"
+    },
+    "footer": {
+        "title": "Todos os direitos reservados"
+    }
+}
