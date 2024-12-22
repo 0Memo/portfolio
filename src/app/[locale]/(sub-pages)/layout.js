@@ -12,7 +12,7 @@ export default function SubPagesLayout({ children, params }) {
             <NextIntlClientProvider messages={messages}>
                 {children}
             </NextIntlClientProvider>
-            <p className="fixed bottom-0 text-custom mb-2 font-semibold text-md">&copy; Guillermo 2024 | {t('title')}</p>
+            <p className="fixed bottom-0 text-custom mb-2 font-semibold text-sm lg:text-md">&copy; Guillermo 2024 | {t('title')}</p>
         </main>
     );
 }

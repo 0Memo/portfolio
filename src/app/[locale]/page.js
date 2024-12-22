@@ -191,8 +191,7 @@ export default function Home() {
       <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
           Crédits: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0
       </p>
-      <p className="fixed bottom-9 text-custom mb-0 font-semibold text-md">&copy; Guillermo 2024 | {t('title')}</p>
-      {/* <p className="fixed bottom-0 text-custom mb-2 font-semibold text-md">&copy; Guillermo 2024 | Tous droits réservés</p> */}
+      <p className="fixed bottom-9 text-custom mb-0 font-semibold text-sm lg:text-md">&copy; Guillermo 2024 | {t('title')}</p>
     </main>
   );
 }
