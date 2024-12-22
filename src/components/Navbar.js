@@ -14,7 +14,7 @@ const Navbar = () => {
     const pathWithoutLang = pathname.replace(/^\/(fr|es|en|pt|it)/, '');
 
     return (
-        <nav className='flex p-2 gap-2 z-20'>
+        <nav className='flex p-6 lg:p-2 gap-0 lg:gap-2 z-20'>
             <Link href={`/fr${pathWithoutLang}`}>
                 <ReactCountryFlag
                     countryCode="FR"
