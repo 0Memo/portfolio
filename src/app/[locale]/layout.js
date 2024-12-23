@@ -27,9 +27,9 @@ export default function RootLayout({ children, params }) {
       <body className={clsx(inter.variable, 'bg-background text-foreground font-inter')}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
+          <FireFliesBackground />
+          <Sound />
         </NextIntlClientProvider>
-        <FireFliesBackground />
-        <Sound />
         <div id="my-modal" />
       </body>
     </html>

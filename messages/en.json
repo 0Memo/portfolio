@@ -7,6 +7,12 @@
         "2Dresume": "2D resume",
         "PDFresume": "PDF resume"
     },
+    "sound": {
+        "text": "Do you want some music?",
+        "yes": "yes",
+        "no": "no",
+        "audio": "Your browser does not support audio elements"
+    },
     "about": {
         "title": "Come and see the man that stands under the hat..",
         "presentation": "Enchantment Worker",

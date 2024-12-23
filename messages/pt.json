@@ -7,6 +7,12 @@
         "2Dresume": "Currículo 2D",
         "PDFresume": "Currículo PDF"
     },
+    "sound": {
+        "text": "Você quer um pouco de música?",
+        "yes": "sim",
+        "no": "não",
+        "audio": "Seu navegador não suporta elementos de áudio"
+    },
     "about": {
         "title": "Venha conhecer o homem que usa o chapéu...",
         "presentation": "Operário do Encanto",

@@ -7,6 +7,12 @@
         "2Dresume": "CV 2D",
         "PDFresume": "CV PDF"
     },
+    "sound": {
+        "text": "Voulez-vous un peu de musique?",
+        "yes": "oui",
+        "no": "non",
+        "audio": "Votre navigateur ne prend pas en charge les éléments audio"
+    },
     "about": {
         "title": "Venez rencontrer l'homme qui se tient sous le chapeau..",
         "presentation": "Travailleur de l'Enchantement",

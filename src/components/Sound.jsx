@@ -3,19 +3,22 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Volume2, VolumeX } from 'lucide-react';
 import { createPortal } from 'react-dom';
+import { useTranslations } from 'next-intl';
 
 const Modal = ({ onClose, toggle }) => {
+    const t = useTranslations();
+
     return createPortal(
         <div className='fixed inset-0 bg-background/60 backdrop-blur-sm flex items-center justify-center'>
             <div className='bg-background/20 border border-custom border-solid backdrop-blur-[6px] py-8 px-6 xs:px-10 sm:px-16 rounded shadow-glass-inset text-center space-y-8'>
-                <p className='font-light'>Voulez-vous jouer une musique de fond?</p>
+                <p className='font-light'>{t('sound.text')}</p>
                 <div className='flex items-center justify-center space-x-4'>
                     <button
                         onClick={toggle}
-                        className='px-4 py-2 border border-custom border-solid hover:shadow-glass-sm rounded mr-2'>oui</button>
+                        className='px-4 py-2 border border-custom border-solid hover:shadow-glass-sm rounded mr-2'>{t('sound.yes')}</button>
                     <button
                         onClick={onClose}
-                        className='px-4 py-2 border border-custom border-solid hover:shadow-glass-sm rounded'>non</button>
+                        className='px-4 py-2 border border-custom border-solid hover:shadow-glass-sm rounded'>{t('sound.no')}</button>
                 </div>
             </div>
         </div>,
@@ -25,6 +28,7 @@ const Modal = ({ onClose, toggle }) => {
 }
 
 const Sound = () => {
+    const t = useTranslations();
 
     const audioRef = useRef(null);
 
@@ -80,7 +84,7 @@ const Sound = () => {
             <audio ref={audioRef} controls loop>
                 {/* <source src={"/audio/its-time-for-an-adventure.wav"} type="audio/mpeg" /> */}
                 <source src={"/audio/milton__mini-christmas-song.mp3"} type="audio/mp3" />
-                votre navigateur ne prend pas en charge les éléments audios
+                {t('sound.audio')}
             </audio>
 
             <motion.button

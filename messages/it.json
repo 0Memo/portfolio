@@ -7,6 +7,12 @@
         "2Dresume": "Curriculum 2D",
         "PDFresume": "Curriculum PDF"
     },
+    "sound": {
+        "text": "Vuoi un pò di musica?",
+        "yes": "sì",
+        "no": "no",
+        "audio": "Il tuo browser non supporta gli elementi audio"
+    },
     "about": {
         "title": "Vieni a conoscere l'uomo che porta il cappello...",
         "presentation": "Operaio dell'Incanto",

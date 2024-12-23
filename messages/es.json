@@ -7,6 +7,12 @@
         "2Dresume": "Hoja de vida 2D",
         "PDFresume": "Hoja de vida PDF"
     },
+    "sound": {
+        "text": "¿Quieres algo de música?",
+        "yes": "sí",
+        "no": "no",
+        "audio": "Su navegador no soporta elementos de audio"
+    },
     "about": {
         "title": "Vengan a conocer al hombre que lleva el sombrero..",
         "presentation": "Obrero del Encanto",
