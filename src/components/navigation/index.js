@@ -5,6 +5,7 @@ import NavButton from './NavButton';
 import useScreenSize from '../hooks/useScreenSize';
 import ResponsiveComponent from '../ResponsiveComponent';
 import { motion } from 'framer-motion';
+import { useTranslations } from "next-intl";
 
 const container = {
     hidden: { opacity: 0 },
@@ -17,7 +18,7 @@ const container = {
 }
 
 const Navigation = () => {
-
+    const t = useTranslations();
     const angleIncrement = 360/BtnList.length;
 
     const size = useScreenSize();
@@ -47,7 +48,7 @@ const Navigation = () => {
                                 const x = `calc(${radius}*${Math.cos(angleRad)})`
                                 const y = `calc(${radius}*${Math.sin(angleRad)})`
 
-                                return <NavButton key={btn.label} x={x} y={y} {...btn}></NavButton>
+                                return <NavButton key={btn.label} x={x} y={y} {...btn} label={t(btn.label)}></NavButton>
                             })
                         }
                     </motion.div>
@@ -64,7 +65,7 @@ const Navigation = () => {
                             
                                         const angleRad = (index * angleIncrement * Math.PI) / 180;
                             
-                                        return <NavButton key={btn.label} x={0} y={0} {...btn}></NavButton>;
+                                        return <NavButton key={btn.label} x={0} y={0} {...btn} label={t(btn.label)}></NavButton>;
                                     })
                                 }
                             </motion.div>
@@ -79,7 +80,7 @@ const Navigation = () => {
                             
                                         const angleRad = (index * angleIncrement * Math.PI) / 180;
                             
-                                        return <NavButton key={btn.label} x={0} y={0} {...btn} labelDirection = 'left'></NavButton>;
+                                        return <NavButton key={btn.label} x={0} y={0} {...btn} label={t(btn.label)} labelDirection = 'left'></NavButton>;
                                     })
                                 }
                             </motion.div>

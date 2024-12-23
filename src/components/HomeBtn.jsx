@@ -3,10 +3,13 @@ import React from 'react';
 import Link from 'next/link';
 import { Home } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 const NavLink = motion(Link);
 
 const HomeBtn = () => {
+    const t = useTranslations();
+
     return (
         <NavLink
             initial={{ scale: 0 }}
@@ -24,7 +27,7 @@ const HomeBtn = () => {
                 <Home className="w-full h-auto" strokeWidth={1.5} />
                 <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
                 <span className="absolute hidden peer-hover:block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background text-foreground text-sm rounded-md shadow-lg whitespace-nowrap">
-                    Accueil
+                    {t('menu.homepage')}
                 </span>
             </span>                
         </NavLink>

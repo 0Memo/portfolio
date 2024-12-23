@@ -132,10 +132,10 @@ export const projectsData = [
 ];
 
 export const BtnList = [
-  { label: "Accueil", link: "/", icon: "home", newTab: false },
-  { label: "Moi", link: "/about", icon: "about", newTab: false },
-  { label: "Projets", link: "/projects", icon: "projects", newTab: false },
-  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  { label: "menu.homepage", link: "/", icon: "home", newTab: false },
+  { label: "menu.me", link: "/about", icon: "about", newTab: false },
+  { label: "menu.projects", link: "/projects", icon: "projects", newTab: false },
+  { label: "menu.contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
     link: "https://github.com/0Memo",
@@ -149,13 +149,13 @@ export const BtnList = [
     newTab: true,
   },
   {
-    label: "CV 2D",
+    label: "menu.2Dresume",
     link: "https://guillermo-web.fr/cv2D/",
     icon: "portfolio",
     newTab: true,
   },
   {
-    label: "CV PDF",
+    label: "menu.PDFresume",
     link: "/CV_Guillaume_Mehats.pdf",
     icon: "resume",
     newTab: true,

@@ -1,11 +1,11 @@
 {
     "menu": {
-        "homepage": "Homepage",
+        "homepage": "Home page",
         "me": "Me",
         "projects": "Projects",
         "contact": "Contact",
-        "2D resume": "2D resume",
-        "PDF resume": "PDF resume"
+        "2Dresume": "2D resume",
+        "PDFresume": "PDF resume"
     },
     "about": {
         "title": "Come and see the man that stands under the hat..",
