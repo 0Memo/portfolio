@@ -137,13 +137,13 @@ export const BtnList = [
   { label: "menu.projects", link: "/projects", icon: "projects", newTab: false },
   { label: "menu.contact", link: "/contact", icon: "contact", newTab: false },
   {
-    label: "Github",
+    label: "menu.Github",
     link: "https://github.com/0Memo",
     icon: "github",
     newTab: true,
   },
   {
-    label: "LinkedIn",
+    label: "menu.LinkedIn",
     link: "https://www.linkedin.com/in/guillaume-mehats/",
     icon: "linkedin",
     newTab: true,
