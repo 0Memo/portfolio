@@ -1,9 +1,9 @@
 import HomeBtn from "@/components/HomeBtn";
 import { NextIntlClientProvider, useTranslations } from "next-intl";
 
-export default function SubPagesLayout({ children, params }) {
+export default async function SubPagesLayout({ children, params }) {
     const locale = params.locale;
-    const messages = require(`../../../../messages/${locale}.json`);
+    const messages = (await import(`../../../../messages/${locale}.json`)).default;
 
     return (
         <NextIntlClientProvider locale={locale} messages={messages}>

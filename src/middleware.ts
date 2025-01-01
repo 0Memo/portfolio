@@ -1,3 +1,4 @@
+import { NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 
 export default createMiddleware({

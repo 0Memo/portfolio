@@ -1,5 +1,5 @@
 @font-face {
-    font-family: rio;
+    font-family: 'TACOM';
     src: url('./fonts/TACOM.ttf');
 }
 
@@ -1972,7 +1972,7 @@
 }
 
 .content .celebration {
-    font-family: rio, cursive;
+    font-family: 'TACOM', cursive;
     font-size: 40px;
     color: white;
     z-index: 4;

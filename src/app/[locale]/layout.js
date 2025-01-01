@@ -15,9 +15,21 @@ export const metadata = {
   description: "Mon portfolio par Next App",
 };
 
-export default function RootLayout({ children, params }) {
-  const locale = params.locale; // Get locale from URL
-  const messages = require(`../../../messages/${locale}.json`);
+export default async function RootLayout({ children, params }) {
+  const locale = params.locale;
+  let messages;
+
+  try {
+    messages = (await import(`../../../messages/${locale}.json`)).default;
+  } catch (error) {
+    console.error("Failed to load locale:", locale, error);
+    messages = (await import(`../../../messages/en.json`)).default;
+  }
+
+  if (typeof messages !== 'object') {
+    console.error("Invalid messages object for locale:", locale);
+    messages = (await import(`../../../messages/en.json`)).default;
+  }
 
   return (
     <html lang={locale}>
