@@ -23,8 +23,8 @@ export default function Home() {
           <Wizard />
         </RenderModel>
       </div>
-      <Fairy />
-      <NewYear />
+      {/* <Fairy />
+      <NewYear /> */}
       <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
           {t('credits')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
           {/* {t('credits')}: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0 */}
