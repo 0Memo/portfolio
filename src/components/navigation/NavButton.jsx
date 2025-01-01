@@ -42,7 +42,7 @@ const item = {
     show: { scale: 1 },
 }
 
-const NavLink = motion(Link);
+const MotionLink = motion.create(Link);
 
 const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) => {
 
@@ -55,7 +55,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) =
                             className="absolute cursor-pointer z-50"
                             style={{transform: `translate(${x}, ${y})`}}
                         >
-                            <NavLink
+                            <MotionLink
                                 variants={item}
                                 href={link}
                                 target={newTab ? '_blank' : '_self'}
@@ -73,13 +73,13 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) =
                                     </span>
                                 </span>
                                 
-                            </NavLink>
+                            </MotionLink>
                         </div>
                     :
                         <div
                             className="w-fit cursor-pointer z-50"
                         >
-                            <NavLink
+                            <MotionLink
                                 variants={item}
                                 href={link}
                                 target={newTab ? '_blank' : '_self'}
@@ -97,7 +97,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) =
                                     </span>
                                 </span>
                                 
-                            </NavLink>
+                            </MotionLink>
                         </div>
                     }
             }            
