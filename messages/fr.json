@@ -39,6 +39,11 @@
         "message": "message...",
         "button": "Envoyez Votre Missive!"
     },
+    "celebration": {
+        "happy": "Bonne",
+        "new": "Année",
+        "year": "2025!"
+    },
     "credit": {
         "title": "Crédits"
     },

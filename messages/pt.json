@@ -39,6 +39,11 @@
         "message": "mensagem...",
         "button": "Envie Sua Mensagem!"
     },
+    "celebration": {
+        "happy": "Feliz",
+        "new": "Ano Novo",
+        "year": "2025!"
+    },
     "credit": {
         "title": "Créditos"
     },

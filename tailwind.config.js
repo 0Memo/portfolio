@@ -8,7 +8,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['var(--font-inter)']
+        inter: ['var(--font-inter)'],
+        pacifico: ['Pacifico'],
+        festive: ['Festive'],
+        kaushan: ['Kaushan Script']
       },
       colors: {
         background: 'rgb(var(--background))',

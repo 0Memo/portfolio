@@ -21,7 +21,7 @@ function Footer() {
 
     return (
         <p className="fixed bottom-0 text-custom mb-2 font-semibold text-sm lg:text-md">
-            &copy; Guillermo 2024 | {t('title')}
+            &copy; Guillermo 2025 | {t('title')}
         </p>
     );
 }

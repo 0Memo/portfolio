@@ -83,7 +83,8 @@ const Sound = () => {
         }
             <audio ref={audioRef} controls loop>
                 {/* <source src={"/audio/its-time-for-an-adventure.wav"} type="audio/mpeg" /> */}
-                <source src={"/audio/milton__mini-christmas-song.mp3"} type="audio/mp3" />
+                {/* <source src={"/audio/milton__mini-christmas-song.mp3"} type="audio/mp3" /> */}
+                <source src={"/audio/mambo.wav"} type="audio/mpeg" />
                 {t('sound.audio')}
             </audio>
 
