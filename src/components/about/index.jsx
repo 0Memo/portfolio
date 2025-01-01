@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import Image from "next/image";
 import ItemLayout from './ItemLayout';
 import { Progress } from "flowbite-react";
 import { useTranslations } from 'next-intl';
@@ -31,7 +32,7 @@ const AboutDetails = () => {
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}>
-                    <img className="w-full h-auto" src={`https://github-readme-stats.vercel.app/api/top-langs/?username=0Memo&layout=compact&locale=${t('language')}&theme=transparent&hide_border=true&title_color=A537FD&text_color=FFFFFF&icon_color=A537FD&text_bold=false`} alt="0Memo" loading="lazy" />
+                    <Image className="w-full h-auto" src={`https://github-readme-stats.vercel.app/api/top-langs/?username=0Memo&layout=compact&locale=${t('language')}&theme=transparent&hide_border=true&title_color=A537FD&text_color=FFFFFF&icon_color=A537FD&text_bold=false`} alt="0Memo" loading="lazy" />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
@@ -116,7 +117,7 @@ const AboutDetails = () => {
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full"}>
-                    <img className="w-full h-auto" src="https://skillicons.dev/icons?i=bash,bootstrap,codepen,cs,css,docker,figma,firebase,git,github,html,js,jquery,laravel,mongodb,mysql,nestjs,nextjs,nodejs,npm,php,react,sass,tailwind,threejs,unity,vite,vscode,vue,wordpress" alt="0Memo" loading="lazy" />
+                    <Image className="w-full h-auto" src="https://skillicons.dev/icons?i=bash,bootstrap,codepen,cs,css,docker,figma,firebase,git,github,html,js,jquery,laravel,mongodb,mysql,nestjs,nextjs,nodejs,npm,php,react,sass,tailwind,threejs,unity,vite,vscode,vue,wordpress" alt="0Memo" loading="lazy" />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
@@ -147,7 +148,7 @@ const AboutDetails = () => {
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-                    <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/pin/?username=0Memo&repo=0Memo&locale=fr&theme=transparent&hide_border=true&title_color=A537FD&text_color=FFFFFF&icon_color=A537FD&text_bold=false" alt="0Memo" loading="lazy" />
+                    <Image className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/pin/?username=0Memo&repo=0Memo&locale=fr&theme=transparent&hide_border=true&title_color=A537FD&text_color=FFFFFF&icon_color=A537FD&text_bold=false" alt="0Memo" loading="lazy" />
                 </ItemLayout>
                 
             </div>

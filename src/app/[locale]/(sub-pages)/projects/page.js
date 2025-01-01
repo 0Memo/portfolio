@@ -20,7 +20,7 @@ export default function Projects() {
 
             <ProjectList projects={projectsData} />
             <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
-                {t('title')}: "Wizard's Cane" (https://skfb.ly/6sNtn) by Meee is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+                {t('title')}: &quot;Wizard&apos;s Cane&quot; (https://skfb.ly/6sNtn) by Meee is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
             </p>
 
             <div className="flex items-center justify-center fixed top-20 lg:top-40 -translate-x-1/2 lg:translate-x-0 -z-10 left-1/2 lg:-left-24 h-screen">
