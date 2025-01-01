@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "builds": [
+    {
+        "src": "next.config.mjs",
+        "use": "@vercel/next"
+    }
+    ],
+    "build": {
+        "env": {
+            "NODE_OPTIONS": "--max-old-space-size=8192"
+        }
+    }
+}  
