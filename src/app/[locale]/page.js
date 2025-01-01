@@ -3,7 +3,6 @@ import bg from '../../../public/background/forest.png';
 import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 import dynamic from "next/dynamic";
-// import Xmas from '@/components/xmas/index';
 import Fairy from '@/components/fairy/index';
 import NewYear from '@/components/newYear/index';
 import Navbar from "@/components/Navbar";
