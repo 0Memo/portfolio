@@ -4,6 +4,7 @@ import { Home, FileCode2, Fingerprint, PencilLine, Github, Linkedin, FolderOpenD
 import ResponsiveComponent from '../ResponsiveComponent';
 import clsx from 'clsx';
 import { motion } from 'framer-motion';
+import { useLocale } from "next-intl";
 
 const getIcon = (icon) => {
     switch (icon) {
@@ -45,6 +46,7 @@ const item = {
 const MotionLink = motion.create(Link);
 
 const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) => {
+    const locale = useLocale();
 
     return (
         <ResponsiveComponent>
@@ -57,7 +59,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) =
                         >
                             <MotionLink
                                 variants={item}
-                                href={link}
+                                href={`/${locale}${link}`}
                                 target={newTab ? '_blank' : '_self'}
                                 className="text-foreground rounded-full flex items-center justify-center custom-bg"
                                 aria-label={label}
@@ -81,7 +83,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) =
                         >
                             <MotionLink
                                 variants={item}
-                                href={link}
+                                href={`/${locale}${link}`}
                                 target={newTab ? '_blank' : '_self'}
                                 className="text-foreground rounded-full flex items-center justify-center custom-bg"
                                 aria-label={label}

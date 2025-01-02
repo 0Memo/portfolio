@@ -1,6 +1,6 @@
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import bg from '../../../../../public/background/about.png';
 import RenderModel from "@/components/RenderModel";
 // import Hat from "@/components/models/Hat";
@@ -11,6 +11,7 @@ import Navbar from "@/components/Navbar";
 const Hat = dynamic(() => import('@/components/models/WizardHat'), {ssr: false});
 
 export default function About() {
+    const locale = useLocale();
     const t = useTranslations('about');
 
     return (

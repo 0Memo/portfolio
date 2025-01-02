@@ -3,12 +3,13 @@ import bg from '../../../../../public/background/contact-background.png';
 import Form from "@/components/contact/Form";
 import RenderModel from "@/components/RenderModel";
 import dynamic from "next/dynamic";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Navbar from "@/components/Navbar";
 
 const Chest = dynamic(() => import('@/components/models/Chest'), {ssr: false});
 
 export default function Contact() {
+    const locale = useLocale();
     const t = useTranslations('contact');
 
     return (

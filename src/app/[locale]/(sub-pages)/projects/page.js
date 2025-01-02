@@ -4,13 +4,14 @@ import ProjectList from "@/components/projects";
 import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";
 import dynamic from "next/dynamic";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Navbar from "@/components/Navbar";
 //import Staff from "@/components/models/Staff";
 
 const Wand = dynamic(() => import('@/components/models/WizardCane'), {ssr: false});
 
 export default function Projects() {
+    const locale = useLocale();
     const t = useTranslations('credit');
 
     return (

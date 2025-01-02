@@ -3,19 +3,20 @@ import React from 'react';
 import Link from 'next/link';
 import { Home } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from "next-intl";
 
 const NavLink = motion(Link);
 
 const HomeBtn = () => {
     const t = useTranslations();
+    const locale = useLocale();
 
     return (
         <NavLink
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ delay: 1 }}
-            href={"/"}
+            href={`/${locale}`}
             target={'_self'}
             className="text-foreground rounded-full flex items-center justify-center custom-bg fixed top-4 left-4 w-fit self-start z-50"
             aria-label={"home"}
