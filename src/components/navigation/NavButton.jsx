@@ -48,6 +48,9 @@ const MotionLink = motion.create(Link);
 const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) => {
     const locale = useLocale();
 
+    const isExternalOrStatic = link.startsWith("http") || link.endsWith(".pdf");
+    const href = isExternalOrStatic ? link : `/${locale}${link}`;
+
     return (
         <ResponsiveComponent>
             {
@@ -59,7 +62,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) =
                         >
                             <MotionLink
                                 variants={item}
-                                href={`/${locale}${link}`}
+                                href={href}
                                 target={newTab ? '_blank' : '_self'}
                                 className="text-foreground rounded-full flex items-center justify-center custom-bg"
                                 aria-label={label}
@@ -83,7 +86,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) =
                         >
                             <MotionLink
                                 variants={item}
-                                href={`/${locale}${link}`}
+                                href={href}
                                 target={newTab ? '_blank' : '_self'}
                                 className="text-foreground rounded-full flex items-center justify-center custom-bg"
                                 aria-label={label}

@@ -7,7 +7,9 @@
         "Github": "Github",
         "LinkedIn": "LinkedIn",
         "2Dresume": "Hoja de vida 2D",
-        "PDFresume": "Hoja de vida PDF"
+        "PDFresume": "Hoja de vida PDF",
+        "language": "/Hoja_de_vida.pdf",
+        "link": "https://www.linkedin.com/in/guillaume-mehats/?locale=es_ES"
     },
     "sound": {
         "text": "¿Quieres algo de música?",

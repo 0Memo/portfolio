@@ -3,11 +3,13 @@
         "homepage": "Pagina principale",
         "me": "Chi sono",
         "projects": "Progetti",
-        "contact": "Contatti",
+        "contact": "Contatto",
         "Github": "Github",
         "LinkedIn": "LinkedIn",
         "2Dresume": "Curriculum 2D",
-        "PDFresume": "Curriculum PDF"
+        "PDFresume": "Curriculum PDF",
+        "language": "/CV_it.pdf",
+        "link": "https://www.linkedin.com/in/guillaume-mehats/?locale=it_IT"
     },
     "sound": {
         "text": "Vuoi un pò di musica?",

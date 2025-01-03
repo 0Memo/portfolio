@@ -7,7 +7,9 @@
         "Github": "Github",
         "LinkedIn": "LinkedIn",
         "2Dresume": "2D resume",
-        "PDFresume": "PDF resume"
+        "PDFresume": "PDF resume",
+        "language": "/Resume.pdf",
+        "link": "https://www.linkedin.com/in/guillaume-mehats/?locale=en_US"
     },
     "sound": {
         "text": "Do you want some music?",

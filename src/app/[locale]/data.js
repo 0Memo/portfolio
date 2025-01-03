@@ -131,7 +131,7 @@ export const projectsData = [
   },
 ];
 
-export const BtnList = [
+export const getBtnList = (t) => [
   { label: "menu.homepage", link: "/", icon: "home", newTab: false },
   { label: "menu.me", link: "/about", icon: "about", newTab: false },
   { label: "menu.projects", link: "/projects", icon: "projects", newTab: false },
@@ -144,7 +144,7 @@ export const BtnList = [
   },
   {
     label: "menu.LinkedIn",
-    link: "https://www.linkedin.com/in/guillaume-mehats/",
+    link: t("menu.link"),
     icon: "linkedin",
     newTab: true,
   },
@@ -156,7 +156,7 @@ export const BtnList = [
   },
   {
     label: "menu.PDFresume",
-    link: "/CV_Guillaume_Mehats.pdf",
+    link: t("menu.language"),
     icon: "resume",
     newTab: true,
   },

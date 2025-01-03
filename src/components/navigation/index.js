@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { BtnList } from '@/app/[locale]/data';
+import { getBtnList } from '@/app/[locale]/data';
 import NavButton from './NavButton';
 import useScreenSize from '../hooks/useScreenSize';
 import ResponsiveComponent from '../ResponsiveComponent';
@@ -19,6 +19,7 @@ const container = {
 
 const Navigation = () => {
     const t = useTranslations();
+    const BtnList = getBtnList(t);
     const angleIncrement = 360/BtnList.length;
 
     const size = useScreenSize();
