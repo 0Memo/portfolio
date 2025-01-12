@@ -1,0 +1,56 @@
+{
+    "menu": {
+        "homepage": "Hemsida",
+        "me": "Jag",
+        "projects": "Projekt",
+        "contact": "Kontakt",
+        "Github": "Github",
+        "LinkedIn": "LinkedIn",
+        "2Dresume": "2D CV",
+        "PDFresume": "PDF CV",
+        "language": "/CV.pdf",
+        "link": "https://www.linkedin.com/in/guillaume-mehats/?locale=sv_SE"
+    },
+    "sound": {
+        "text": "Vill du ha lite musik?",
+        "yes": "ja",
+        "no": "nej",
+        "audio": "Din webbläsare stöder inte ljud-element"
+    },
+    "about": {
+        "title": "Kom och se mannen som står under hatten...",
+        "presentation": "Magiskapare",
+        "body": "En bra dag i utvecklingsvärlden rimmar inte med tristess eller enkelhet. Det finns så många språk, bibliotek och andra värdefulla verktyg att oändligt upptäcka och använda... Detta utrymme som du upptäcker är en möjlighet för mig att utforska Next.js-världen efter att tidigare ha arbetat med React.js. Jag hoppas att du gillar det lika mycket som jag gör. Det är viktigt för mig att ständigt förnya mig själv i kunskap och prestationer och alltid utmana mina egna gränser för att erbjuda en bättre version av mig själv och mitt arbete.",
+        "training1": "App Designer och Utvecklarutbildning",
+        "place1": "Alt — mars 2024 - aug. 2024",
+        "training2": "Webbutvecklarutbildning",
+        "place2": "Ifocop Paris XI — juni 2020 - feb. 2021",
+        "language": "sv",
+        "languages": "Främmande språk",
+        "urbex": "Urban utforskning",
+        "garage sale": "Loppmarknad",
+        "metal detection": "Metallupptäckt",
+        "travel": "Resor",
+        "epoxy": "Epoxiharts-skapande"
+    },
+    "contact": {
+        "title": "Framkalla Trollkarlen!",
+        "text": "Kom och presentera dina förfrågningar till kosmosfabriken. Oavsett om det är för att kalla på samarbetskrafter, lösa mysterier eller påbörja ett nytt äventyr, är dina meddelanden dyrbara skatter för detta rike. Använd detta formulär och vänta på magins andetag som svar på ditt brev.",
+        "name": "namn...",
+        "email": "email...",
+        "message": "meddelande...",
+        "button": "Skicka Ditt Brev!"
+    },
+    "celebration": {
+        "happy": "Gott",
+        "new": "Nytt År",
+        "year": "2025!"
+    },
+    "credit": {
+        "title": "Krediter"
+    },
+    "footer": {
+        "credits": "Krediter",
+        "title": "Alla rättigheter förbehållna"
+    }
+}

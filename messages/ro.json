@@ -1,0 +1,56 @@
+{
+    "menu": {
+        "homepage": "Pagina principală",
+        "me": "Eu",
+        "projects": "Proiecte",
+        "contact": "Contact",
+        "Github": "Github",
+        "LinkedIn": "LinkedIn",
+        "2Dresume": "CV 2D",
+        "PDFresume": "CV PDF",
+        "language": "/CV.pdf",
+        "link": "https://www.linkedin.com/in/guillaume-mehats/?locale=ro_RO"
+    },
+    "sound": {
+        "text": "Doriți puțină muzică?",
+        "yes": "da",
+        "no": "nu",
+        "audio": "Browserul dumneavoastră nu suportă elementele audio"
+    },
+    "about": {
+        "title": "Vino să vezi omul care stă sub pălărie...",
+        "presentation": "Creator de Magie",
+        "body": "O zi bună în lumea dezvoltării nu rimează cu plictiseală sau ușurință. Există atât de multe limbaje, biblioteci și alte instrumente valoroase de descoperit și utilizat la nesfârșit... Acest spațiu pe care îl descoperiți este o oportunitate pentru mine de a explora lumea Next.js după ce am practicat anterior React.js. Sper să vă placă la fel de mult ca și mie. Este important pentru mine să mă reinventez în ceea ce privește cunoștințele și realizările și să îmi împing mereu limitele pentru a oferi o versiune mai bună a mea și a muncii mele.",
+        "training1": "Formare Designer și Dezvoltator Aplicații",
+        "place1": "Alt — mar. 2024 - aug. 2024",
+        "training2": "Formare Dezvoltator Web",
+        "place2": "Ifocop Paris XI — iun. 2020 - feb. 2021",
+        "language": "ro",
+        "languages": "Limbi străine",
+        "urbex": "Explorări urbane",
+        "garage sale": "Târguri de vechituri",
+        "metal detection": "Detecție de metale",
+        "travel": "Călătorii",
+        "epoxy": "Crearea de rășini epoxidice"
+    },
+    "contact": {
+        "title": "Invocă Vrăjitorul!",
+        "text": "Vino și prezintă-ți cererile către fabrica cosmosului. Fie că este pentru a chema forțele colaborării, a dezlega mistere sau a începe o nouă aventură, mesajele tale sunt comori prețioase pentru acest tărâm. Folosește acest formular și așteaptă suflarea magiei ca răspuns la epistola ta.",
+        "name": "nume...",
+        "email": "email...",
+        "message": "mesaj...",
+        "button": "Trimite Epistola!"
+    },
+    "celebration": {
+        "happy": "An Nou",
+        "new": "Fericit",
+        "year": "2025!"
+    },
+    "credit": {
+        "title": "Credite"
+    },
+    "footer": {
+        "credits": "Credite",
+        "title": "Toate drepturile rezervate"
+    }
+}

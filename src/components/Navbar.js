@@ -18,6 +18,8 @@ const Navbar = () => {
         { code: "en", countryCode: "US", label: "English" },
         { code: "pt", countryCode: "BR", label: "Português" },
         { code: "it", countryCode: "IT", label: "Italiano" },
+        { code: "ro", countryCode: "RO", label: "Română" },
+        { code: "se", countryCode: "SE", label: "Svenska" },
     ];
 
     return (
@@ -32,7 +34,7 @@ const Navbar = () => {
                             height: "1.5em",
                         }}
                         title={label}
-                        className="mt-10 scale-50 xs:scale-100 mr-8 xs:mr-0"
+                        className="mt-10 scale-75 xs:scale-100 mr-8 xs:mr-0"
                     />
                 </Link>
             ))}
