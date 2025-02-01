@@ -3,8 +3,8 @@ import bg from '../../../public/background/forest.png';
 import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 import dynamic from "next/dynamic";
-import Fairy from '@/components/fairy/index';
-import NewYear from '@/components/newYear/index';
+/* import Fairy from '@/components/fairy/index';
+import NewYear from '@/components/newYear/index'; */
 import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
 
@@ -22,12 +22,12 @@ export default function Home() {
           <Wizard />
         </RenderModel>
       </div>
-      <Fairy />
-      <NewYear />
-      <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
+      {/* <Fairy />
+      <NewYear /> */}
+      {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
           {t('credits')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
-          {/* {t('credits')}: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0 */}
-      </p>
+          {t('credits')}: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0
+      </p> */}
       <p className="fixed bottom-9 text-custom mb-0 font-semibold text-sm lg:text-md">&copy; Guillermo 2025 | {t('title')}</p>
     </main>
   );
