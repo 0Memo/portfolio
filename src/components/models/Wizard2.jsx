@@ -16,25 +16,25 @@ export default function Wizard2(props) {
     const modelRef = useRef();
 
     useFrame((state, delta, xrFrame) => {
-        modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime) * 0.15;
+        modelRef.current.position.y = -3.5 + Math.sin(state.clock.elapsedTime) * 0.15;
     });
 
     return (
         <group {...props}
             dispose={null}
             ref={modelRef}
-            position={[0, 0, 0.05]}
-            scale={[0.227, 0.227, 0.227]}
+            position={[-0.08, 0, 0.05]}
+            scale={[0.275, 0.275, 0.275]}
             rotation={[0.2, -0.15, 0]}
         >
-        <mesh
+        {/* <mesh
             castShadow
             receiveShadow
             geometry={nodes.base1ZBrushPolyMesh3D_baseMAT_0.geometry}
             material={materials.baseMAT}
             position={[-1.067, 46.716, 2.97]}
             scale={3.632}
-        />
+        /> */}
         <mesh
             castShadow
             receiveShadow
@@ -83,14 +83,14 @@ export default function Wizard2(props) {
             position={[-1.067, 46.716, 2.97]}
             scale={3.632}
         />
-        <mesh
+        {/* <mesh
             castShadow
             receiveShadow
             geometry={nodes.Fibers36ZBrushPolyMesh3D_fiberMAT_0.geometry}
             material={materials.fiberMAT}
             position={[-1.067, 46.716, 2.97]}
             scale={3.632}
-        />
+        /> */}
         <mesh
             castShadow
             receiveShadow

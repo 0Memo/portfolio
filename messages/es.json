@@ -46,6 +46,9 @@
         "new": "Año Nuevo",
         "year": "2025!"
     },
+    "happy": {
+        "easter": "¡Felices Pascuas!"
+    },
     "credit": {
         "title": "Créditos"
     },

@@ -23,7 +23,7 @@ export default function Model(props) {
         <group ref={group} {...props}
             dispose={null}
             scale={[0.15, 0.15, 0.15]}
-            position={[0, -2, 0]}
+            position={[0, -2.22, 0]}
         >
         <group name="Sketchfab_Scene">
             <group name="Object_5">
@@ -79,13 +79,13 @@ export default function Model(props) {
             material={materials.diamond}
             skeleton={nodes.Object_19.skeleton}
             />
-            <mesh
+            {/* <mesh
             name="TABLE_TABLE1_0"
             castShadow
             receiveShadow
             geometry={nodes.TABLE_TABLE1_0.geometry}
             material={materials.TABLE1}
-            />
+            /> */}
             <group name="particles_">
             <group name="crystal" position={[-0.009, 3.29, -0.295]} scale={[0.423, 0.517, 0.358]}>
                 <mesh

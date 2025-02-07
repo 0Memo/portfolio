@@ -46,6 +46,9 @@
         "new": "Anno Nuovo",
         "year": "2025!"
     },
+    "happy": {
+        "easter": "Buona Pasqua!"
+    },
     "credit": {
         "title": "Crediti"
     },

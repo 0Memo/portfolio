@@ -3,8 +3,9 @@ import bg from '../../../public/background/forest.png';
 import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 import dynamic from "next/dynamic";
-/* import Fairy from '@/components/fairy/index';
-import NewYear from '@/components/newYear/index'; */
+import Fairy from '@/components/fairy/index';
+/* import NewYear from '@/components/newYear/index';
+import Easter from "@/components/easter"; */
 import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
 
@@ -12,6 +13,8 @@ const Wizard = dynamic(() => import('@/components/models/Wizard2'), {ssr: false}
 
 export default function Home() {
   const t = useTranslations('footer');
+  const currentYear = new Date().getFullYear(); 
+  
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       <Image priority sizes="100vw" src={bg} alt="image de fond" fill className="w-full h-full object-cover object-center opacity-25" />
@@ -22,7 +25,8 @@ export default function Home() {
           <Wizard />
         </RenderModel>
       </div>
-      {/* <Fairy />
+      <Fairy />
+      {/* <Easter />
       <NewYear /> */}
       {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
           {t('credits')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
