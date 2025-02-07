@@ -8,6 +8,7 @@
     perspective: 250px;
     -webkit-animation: flying 12s linear infinite;
     animation: flying 12s linear infinite;
+    z-index: -100;
 }
 
 .glow {
@@ -42,7 +43,6 @@
     position: absolute;
     border-radius: 100px;
     opacity: 0;
-    z-index: 100;
 }
 
 .sparkle:nth-child(1) {
