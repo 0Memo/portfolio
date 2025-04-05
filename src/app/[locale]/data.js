@@ -20,7 +20,7 @@ export const projectsData = [
   {
     id: 1,
     name: "Room Folio",
-    description: "Room Fplio",
+    description: "Room Folio",
     tools: "THREE.JS, BLENDER",
     demoLink: " https://memosfolio.vercel.app/",
   },
