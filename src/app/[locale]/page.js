@@ -4,8 +4,8 @@ import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 import dynamic from "next/dynamic";
 import Fairy from '@/components/fairy/index';
-/* import NewYear from '@/components/newYear/index';
-import Easter from "@/components/easter"; */
+/* import NewYear from '@/components/newYear/index'; */
+import Easter from "@/components/easter";
 import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
 
