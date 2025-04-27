@@ -4,8 +4,8 @@ import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 import dynamic from "next/dynamic";
 import Fairy from '@/components/fairy/index';
-/* import NewYear from '@/components/newYear/index'; */
-import Easter from "@/components/easter";
+/* import NewYear from '@/components/newYear/index';
+import Easter from "@/components/easter"; */
 import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
 
@@ -26,8 +26,8 @@ export default function Home() {
         </RenderModel>
       </div>
       <Fairy />
-      <Easter />
-      {/* <NewYear /> */}
+      {/* <Easter />
+      <NewYear /> */}
       {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
           {t('credits')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
           {t('credits')}: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0
