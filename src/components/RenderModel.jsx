@@ -25,14 +25,12 @@ const RenderModel = ({children, className}) => {
     }, []);
 
     return (
-        <div ref={canvasRef} className={clsx('w-screen h-screen relative -z-10', className)}>
-            <Canvas>
-                <Suspense fallback={null}>
-                    {children}
-                </Suspense>
-                <Environment preset='dawn' />
-            </Canvas>
-        </div>
+        <Canvas className={clsx('fixed inset-0 -z-10', className)}>
+            <Suspense fallback={null}>
+                {children}
+            </Suspense>
+            <Environment preset='dawn' />
+        </Canvas>
     )
 }
 
