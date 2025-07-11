@@ -13,6 +13,9 @@ const inter = Inter({
 export const metadata = {
   title: "Portfolio - Guillermo",
   description: "Mon portfolio par Next App",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default async function RootLayout({ children, params }) {
@@ -33,9 +36,6 @@ export default async function RootLayout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <head>
-        <link rel="icon" href="/favicon.ico"  type="image/x-icon" />
-      </head>
       <body className={clsx(inter.variable, 'bg-background text-foreground font-inter')}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}

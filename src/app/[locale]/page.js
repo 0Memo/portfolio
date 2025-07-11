@@ -1,3 +1,5 @@
+'use client'
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import bg from '../../../public/background/forest.png';
 import RenderModel from "@/components/RenderModel";
@@ -13,7 +15,10 @@ const Wizard = dynamic(() => import('@/components/models/Wizard2'), {ssr: false}
 
 export default function Home() {
   const t = useTranslations('footer');
-  const currentYear = new Date().getFullYear(); 
+  const [currentYear, setCurrentYear] = useState(null);
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
   
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
@@ -32,7 +37,10 @@ export default function Home() {
           {t('credits')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
           {t('credits')}: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0
       </p> */}
-      <p className="fixed bottom-9 text-custom mb-0 font-semibold text-sm lg:text-md">&copy; Guillermo 2025 | {t('title')}</p>
+      {currentYear && (
+        <p className="fixed bottom-9 text-custom mb-0 font-semibold text-sm lg:text-md">
+          &copy; Guillermo {currentYear} | {t('title')}
+        </p>)}
     </main>
   );
 }
