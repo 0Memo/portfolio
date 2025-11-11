@@ -1,5 +1,8 @@
 {
     "menu": {
+        "introduction": "Salut, sunt Guillermo!",
+        "developer": "Dezvoltator web,",
+        "designer": "designer de aplicații",
         "homepage": "Pagina principală",
         "me": "Eu",
         "projects": "Proiecte",

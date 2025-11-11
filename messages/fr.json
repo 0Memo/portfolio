@@ -1,5 +1,8 @@
 {
     "menu": {
+        "introduction": "Salut, je suis Guillermo!",
+        "developer": "Développeur web,",
+        "designer": "concepteur d'applications",
         "homepage": "Accueil",
         "me": "Moi",
         "projects": "Projets",

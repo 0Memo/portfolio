@@ -1,5 +1,8 @@
 {
     "menu": {
+        "introduction": "Hi, I'm Guillermo!",
+        "developer": "Web developer,",
+        "designer": "app designer",
         "homepage": "Home page",
         "me": "Me",
         "projects": "Projects",

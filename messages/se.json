@@ -1,5 +1,8 @@
 {
     "menu": {
+        "introduction": "Hej, jag är Guillermo!",
+        "developer": "Webbutvecklare,",
+        "designer": "appdesigner",
         "homepage": "Hemsida",
         "me": "Jag",
         "projects": "Projekt",

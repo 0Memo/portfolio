@@ -18,20 +18,32 @@ export const metadata = {
   },
 };
 
+const VALID_LOCALES = ["en", "es", "fr", "pt", "it", "ro", "se"];
+const DEFAULT_LOCALE = "en";
+
 export default async function RootLayout({ children, params }) {
-  const locale = params.locale;
+  const { locale: rawLocale } = await params;
+
+  const locale = VALID_LOCALES.includes(rawLocale) ? rawLocale : DEFAULT_LOCALE;
+
+  if (rawLocale !== locale) {
+    console.warn(
+      `Invalid locale "${rawLocale}" requested. Using fallback: ${locale}`
+    );
+  }
+
   let messages;
 
   try {
     messages = (await import(`../../../messages/${locale}.json`)).default;
   } catch (error) {
     console.error("Failed to load locale:", locale, error);
-    messages = (await import(`../../../messages/en.json`)).default;
+    messages = (await import(`../../../messages/${DEFAULT_LOCALE}.json`)).default;
   }
 
   if (typeof messages !== 'object') {
     console.error("Invalid messages object for locale:", locale);
-    messages = (await import(`../../../messages/en.json`)).default;
+    messages = (await import(`../../../messages/${DEFAULT_LOCALE}.json`)).default;
   }
 
   return (
