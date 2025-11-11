@@ -3,16 +3,12 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import bg from '../../../public/background/forest.png';
 import me from '../../../public/test.png';
-import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
-import dynamic from "next/dynamic";
 import Fairy from '@/components/fairy/index';
 /* import NewYear from '@/components/newYear/index';
 import Easter from "@/components/easter"; */
 import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
-
-/* const Wizard = dynamic(() => import('@/components/models/Wizard2'), {ssr: false}); */
 
 export default function Home() {
   const t = useTranslations();
@@ -39,7 +35,7 @@ export default function Home() {
           alt="me"
           width={300}
           height={300}
-          className="object-cover object-center rounded-full"
+          className="object-cover object-center mt-10 rounded-full"
         />
         <div className="flex flex-col items-center justify-center text-xl font-bold text-center shadow-lg text-custom lg:text-4xl">
           <p>{t("menu.introduction")}</p>
@@ -47,9 +43,6 @@ export default function Home() {
           <p>{t("menu.designer")}</p>
         </div>
         <Navigation />
-        {/* <RenderModel>
-          <Wizard />
-        </RenderModel> */}
       </div>
       <Fairy />
       {/* <Easter />
