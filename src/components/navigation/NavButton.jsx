@@ -55,7 +55,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection='right'}) =
         <ResponsiveComponent>
             {
                 ({ size }) => {
-                    return size && size >= 480 ?
+                    return size && size >= 1024 ?
                         <div
                             className="absolute cursor-pointer z-50"
                             style={{transform: `translate(${x}, ${y})`}}

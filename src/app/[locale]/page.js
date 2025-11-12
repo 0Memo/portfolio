@@ -28,16 +28,19 @@ export default function Home() {
         className="object-cover object-center w-full h-full opacity-25"
       />
       <Navbar />
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-52 lg:gap-20">
+      <div className="absolute inset-0 flex flex-col items-center justify-center gap-32 md:gap-52 lg:gap-20">
         <Image
           priority
           src={me}
           alt="me"
           width={300}
           height={300}
-          className="object-cover object-center mt-10 rounded-full"
+          className="object-cover object-center mt-10 md:mt-60 rounded-full md:opacity-60 opacity-100 lg:opacity-100 md:scale-[0.6] lg:scale-[1]"
         />
-        <div className="flex flex-col items-center justify-center text-xl font-bold text-center shadow-lg text-custom lg:text-4xl">
+        <div
+          className="flex flex-col items-center justify-center text-xl font-bold
+          text-center shadow-lg text-custom lg:text-4xl md:-translate-y-64 lg:translate-y-0"
+        >
           <p>{t("menu.introduction")}</p>
           <p>{t("menu.developer")}</p>
           <p>{t("menu.designer")}</p>

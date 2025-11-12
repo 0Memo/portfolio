@@ -28,11 +28,11 @@ const Navigation = () => {
     const isMedium = size >= 768;
 
     return (
-        <div className="w-full fixed h-screen flex items-center justify-center">
+        <div className="w-full fixed h-screen flex items-center justify-center z-100">
             <ResponsiveComponent>
             {
                 ({ size }) => {
-                    return size && size >= 480 ? (
+                    return size && size >= 1024 ? (
 
                     <motion.div
                         variants={container}
@@ -55,7 +55,7 @@ const Navigation = () => {
                     </motion.div>
 
                     ) : (
-                        <>
+                        <div className="flex flex-row items-center justify-center w-full gap-8 xs:gap-96">
                             <motion.div
                                 variants={container}
                                 initial="hidden"
@@ -85,7 +85,7 @@ const Navigation = () => {
                                     })
                                 }
                             </motion.div>
-                        </>
+                        </div>
                     )
                 }
             }
