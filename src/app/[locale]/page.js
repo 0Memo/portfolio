@@ -7,6 +7,7 @@ import Navigation from "@/components/navigation";
 import Fairy from '@/components/fairy/index';
 /* import NewYear from '@/components/newYear/index';
 import Easter from "@/components/easter"; */
+import Xmas from "@/components/xmas";
 import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
 
@@ -35,11 +36,11 @@ export default function Home() {
           alt="me"
           width={300}
           height={300}
-          className="object-cover object-center mt-10 md:mt-60 rounded-full md:opacity-60 opacity-100 lg:opacity-100 md:scale-[0.6] lg:scale-[1]"
+          className="object-cover object-center mt-10 hidden md:block md:-mt-20 rounded-full md:opacity-60 opacity-100 lg:opacity-100 md:scale-[0.6] lg:scale-[1]"
         />
         <div
           className="flex flex-col items-center justify-center text-xl font-bold
-          text-center shadow-lg text-custom lg:text-4xl md:-translate-y-64 lg:translate-y-0"
+          text-center shadow-lg text-custom lg:text-4xl md:-translate-y-64 lg:translate-y-0 mt-[27rem] md:mt-52"
         >
           <p>{t("menu.introduction")}</p>
           <p>{t("menu.developer")}</p>
@@ -48,12 +49,15 @@ export default function Home() {
         <Navigation />
       </div>
       <Fairy />
+      <Xmas />
       {/* <Easter />
       <NewYear /> */}
       {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
           {t('credits')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
-          {t('credits')}: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0
       </p> */}
+      <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
+          {t('credits')}: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0
+      </p>
       {currentYear && (
         <p className="fixed mb-0 text-sm font-semibold bottom-9 text-custom lg:text-md">
           &copy; Guillermo {currentYear} | {t("footer.title")}
