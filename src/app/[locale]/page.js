@@ -7,10 +7,9 @@ import me from '../../../public/test.png';
 import Navigation from "@/components/navigation";
 import Fairy from '@/components/fairy/index';
 import NewYear from '@/components/newYear/index';
-/* import Easter from "@/components/easter";
-import Xmas from "@/components/xmas"; */
 import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
+import dynamic from "next/dynamic";
 
 export default function Home() {
   const tMenu = useTranslations('menu');
@@ -20,6 +19,9 @@ export default function Home() {
   useEffect(() => {
     setCurrentYear(new Date().getFullYear());
   }, []);
+  const NewYear = dynamic(() => import("@/components/newYear/index"), {
+    ssr: false,
+  });
   
   return (
     <main className="relative flex flex-col items-center justify-between min-h-screen">
