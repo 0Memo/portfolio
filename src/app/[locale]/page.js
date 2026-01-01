@@ -5,9 +5,9 @@ import bg from '../../../public/background/forest.png';
 import me from '../../../public/test.png';
 import Navigation from "@/components/navigation";
 import Fairy from '@/components/fairy/index';
-/* import NewYear from '@/components/newYear/index';
-import Easter from "@/components/easter"; */
-import Xmas from "@/components/xmas";
+import NewYear from '@/components/newYear/index';
+/* import Easter from "@/components/easter";
+import Xmas from "@/components/xmas"; */
 import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
 
@@ -49,15 +49,18 @@ export default function Home() {
         <Navigation />
       </div>
       <Fairy />
-      <Xmas />
-      {/* <Easter />
-      <NewYear /> */}
-      {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
-          {t('credits')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
-      </p> */}
+      <NewYear />
+      {/* <Xmas />
+      <Easter />
+       */}
       <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
-          {t('credits')}: mini christmas song.mp3 by milton. <br />-- https://freesound.org/s/85209/ -- License: Attribution NonCommercial 3.0
+          {t('credit.title')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
       </p>
+      {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
+        {t("credit.title")}: mini christmas song.mp3 by milton. <br />
+        -- https://freesound.org/s/85209/ -- License: Attribution NonCommercial
+        3.0
+      </p> */}
       {currentYear && (
         <p className="fixed mb-0 text-sm font-semibold bottom-9 text-custom lg:text-md">
           &copy; Guillermo {currentYear} | {t("footer.title")}
