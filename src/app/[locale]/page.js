@@ -13,7 +13,9 @@ import Navbar from "@/components/Navbar";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
-  const t = useTranslations();
+  const tMenu = useTranslations('menu');
+  const tCredit = useTranslations('credit');
+  const tFooter = useTranslations('footer');
   const [currentYear, setCurrentYear] = useState(null);
   useEffect(() => {
     setCurrentYear(new Date().getFullYear());
@@ -43,9 +45,9 @@ export default function Home() {
           className="flex flex-col items-center justify-center text-xl font-bold
           text-center shadow-lg text-custom lg:text-4xl md:-translate-y-64 lg:translate-y-0 mt-[27rem] md:mt-52"
         >
-          <p>{t("menu.introduction")}</p>
-          <p>{t("menu.developer")}</p>
-          <p>{t("menu.designer")}</p>
+          <p>{tMenu("introduction")}</p>
+          <p>{tMenu("developer")}</p>
+          <p>{tMenu("designer")}</p>
         </div>
         <Navigation />
       </div>
@@ -55,7 +57,7 @@ export default function Home() {
       <Easter />
        */}
       <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
-          {t('credit.title')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
+          {tCredit('title')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
       </p>
       {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
         {t("credit.title")}: mini christmas song.mp3 by milton. <br />
@@ -64,7 +66,7 @@ export default function Home() {
       </p> */}
       {currentYear && (
         <p className="fixed mb-0 text-sm font-semibold bottom-9 text-custom lg:text-md">
-          &copy; Guillermo {currentYear} | {t("footer.title")}
+          &copy; Guillermo {currentYear} | {tFooter("title")}
         </p>
       )}
     </main>
