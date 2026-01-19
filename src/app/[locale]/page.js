@@ -43,9 +43,13 @@ export default function Home() {
           height={300}
           className="object-cover object-center mt-10 hidden md:block md:-mt-20 rounded-full md:opacity-60 opacity-100 lg:opacity-100 md:scale-[0.6] lg:scale-[1]"
         />
+        {/* <div
+          className="flex flex-col items-center justify-center text-xl font-bold
+          text-center shadow-lg text-custom lg:text-4xl md:-translate-y-64 lg:translate-y-0"
+        > */}
         <div
           className="flex flex-col items-center justify-center text-xl font-bold
-          text-center shadow-lg text-custom lg:text-4xl md:-translate-y-64 lg:translate-y-0 mt-[27rem] md:mt-52"
+          text-center shadow-lg text-custom lg:text-4xl md:-translate-y-64 lg:translate-y-0"
         >
           <p>{tMenu("introduction")}</p>
           <p>{tMenu("developer")}</p>
@@ -54,14 +58,14 @@ export default function Home() {
         <Navigation />
       </div>
       <Fairy />
-      <NewYear />
-      {/* <Xmas />
+      {/*<NewYear />
+      <Xmas />
       <Easter />
        */}
-      <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
+      {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
           {tCredit('title')}: Cuban mambo by oymaldonado -- https://freesound.org/s/544019/ -- License: Attribution 4.0
       </p>
-      {/* <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
+      <p className="text-[60%] mt-20 text-center mx-5 sm:mx-0">
         {t("credit.title")}: mini christmas song.mp3 by milton. <br />
         -- https://freesound.org/s/85209/ -- License: Attribution NonCommercial
         3.0
